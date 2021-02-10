@@ -5,14 +5,8 @@ html
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
     padding: 24px 24px 0;
+    scroll-behavior: smooth;
 }
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Customize the background color to match your design.
- */
 
 ::-moz-selection 
 {
@@ -128,6 +122,28 @@ a
 {
     color: RoyalBlue;
     transition: all .1s ease-in-out;
+}
+
+table
+{
+    width: 100%;
+    border-spacing: 0;
+}
+
+th
+{
+    text-align: left;
+}
+th,
+td
+{
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.odd
+{
+    background-color: whitesmoke;
 }
 
 a:hover,
